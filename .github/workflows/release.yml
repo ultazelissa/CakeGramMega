@@ -89,7 +89,7 @@ jobs:
         run: ./gradlew assembleAfatRelease
 
       - name: Upload
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Release APK
           path: TMessagesProj/build/outputs/apk/afat/release/*.apk
